@@ -45,8 +45,9 @@ body {
   max-height: 100px;
   padding-right: 160px;
 }
+
 .container #FondoConcept {
-  background-image: url(../img/fondo_disco.png);
+  background-image: url(../img/fondo_disco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -86,6 +87,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
 .container footer {
   background-color: rgb(37, 37, 37);
   height: 150px;
@@ -109,6 +111,7 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .container .contact-form {
   background-color: #6e6e6e;
   padding: 20px;
