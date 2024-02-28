@@ -1,14 +1,15 @@
-.container { 
-
+.container {
     .contact-form {
-        background-color:$fondo_form;
+        background-color: $fondo_form;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px $gris_oscuro;
+
         label {
             display: block;
             margin-bottom: 8px;
         }
+
         input,
         textarea {
             width: 100%;
@@ -18,16 +19,18 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
+
         button {
-            background-color:$fondo_bot;
-            color:$color_bot;
+            background-color: $fondo_bot;
+            color: $color_bot;
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
+
             &:hover {
-                background-color:$hover_bot;
+                background-color: $hover_bot;
             }
         }
     }
@@ -36,10 +39,12 @@
         img {
             width: 20px;
         }
+
         p {
             font-weight: bold;
             color: $blanco;
         }
+
         img {
             width: 12px;
         }

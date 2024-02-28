@@ -59,10 +59,7 @@ body {
   background-color: #101010;
   color: white;
   font-family: "Roboto", sans-serif;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 5rem;
-  padding-bottom: 7rem;
+  padding: 5rem 2rem 7rem;
 }
 .container main p {
   color: #9c9c9c;
@@ -83,6 +80,7 @@ body {
   width: 600px;
 }
 .container main .prensa {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -95,7 +93,7 @@ body {
   text-align: left;
   font-family: "Roboto", sans-serif;
   color: white;
-  padding-left: 200px;
+  padding-left: 30px;
   font-weight: bold;
 }
 .container footer ul {
@@ -176,6 +174,10 @@ body {
     height: 800px;
     padding: 20px;
   }
+  .container main video,
+  .container main audio {
+    width: 450px;
+  }
 }
 @media screen and (max-width: 576px) {
   .container footer {
@@ -190,9 +192,7 @@ body {
   .container footer ul {
     margin-left: 140px;
   }
-  .container main video {
-    width: 300px;
-  }
+  .container main video,
   .container main audio {
     width: 300px;
   }

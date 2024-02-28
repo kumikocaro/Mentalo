@@ -1,59 +1,57 @@
-
 @media screen and (max-width: 1200px) {
-    
     .container {
-    header {
-        padding: 0px;
-    }
+        header {
+            padding: 0px;
+        }
 
-    #logo {
-        max-height: 40px; 
-        margin-right: -120px;
-    }
-    nav {
-        .menuNav {  
-        font-size: xx-small;
-        margin: 0px;
-        display: flex;
+        #logo {
+            max-height: 40px;
+            margin-right: -120px;
+        }
+
+        nav {
+            .menuNav {
+                font-size: xx-small;
+                margin: 0px;
+                display: flex;
+            }
+        }
+
+        #FondoConcept {
+            background-image: url(../img/fondo_mob.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 800px;
+            padding: 20px;
+        }
+        main video,
+        main audio {
+            width: 450px;
         }
     }
-    
+}
 
-    #FondoConcept {
-        background-image: url(../img/fondo_mob.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center; 
-        width: 100%;
-        height: 800px;
-        padding: 20px;
-        
-    }
-}
-}
 @media screen and (max-width: 576px) {
-.container { 
-    footer {
-        background-color: $fondo_foot;
-        height:150px;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        color:$blanco;
-        padding: 10px;
-        font-weight: bold;
+    .container {
+        footer {
+            background-color: $fondo_foot;
+            height: 150px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            color: $blanco;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        footer ul {
+            margin-left: 140px;
+        }
+
+        main video,
+        main audio {
+            width: 300px;
+        }
     }
-    
-    footer ul  { 
-        margin-left:140px;
-        
-    }
-    main { 
-    video { 
-        width: 300px;
-     }
-     audio { 
-        width: 300px;
-     }
-    }
-}
 }

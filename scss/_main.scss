@@ -1,4 +1,4 @@
-.container { 
+.container {
     #FondoConcept {
         background-image: url(../img/fondo_disco.jpg);
         background-repeat: no-repeat;
@@ -13,29 +13,33 @@
         background-color: $fondo;
         color: $blanco;
         font-family: 'Roboto', sans-serif;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 5rem;
-        padding-bottom: 7rem;
+        padding: 5rem 2rem 7rem;
+        
         p {
-            color:$gris;
+            color: $gris;
         }
+
         img {
             max-width: 100%;
             height: auto;
             margin-bottom: 10px;
         }
+
         a {
             text-decoration: none;
         }
+
         audio {
             width: 500px;
             margin-top: 10px;
         }
+
         video {
             width: 600px;
         }
+
         .prensa {
+            display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
