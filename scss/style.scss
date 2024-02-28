@@ -155,65 +155,65 @@ body {
             color: white;
         }
         img {
-            with: 12px;
+            width: 12px;
         }
     }
-
-    @media screen and (max-width: 1200px) {
-        .nav-links {
-            li {
-                margin: 10px 0;
-            }
-        }
-        header {
-            padding: 0px;
-        }
-        #logo {
-            max-height: 40px;
-        }
-        .menuNav {
-            font-size: xx-small;
-            margin: 0px;
-        }
-        nav {
-            img {
-                vertical-align: middle;
-                margin: 0px;
-                padding: 0px;
-            }
-        }
-        #FondoConcept {
-            background-image: url(../img/fondo_mob.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 800px;
-            padding: 20px;
-        }
+}
+@media screen and (max-width: 1200px) {
+    
+    .container {
+    header {
+        padding: 0px;
     }
 
-    @media screen and (max-width: 576px) {
-        footer {
-            background-color: rgb(37, 37, 37);
-            height: 150px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            color: white;
-            padding: 10px;
-            font-weight: bold;
-        }
-
-        footer ul {
-            margin-left: 140px;
-        }
-
-        video {
-            width: 300px;
-        }
-
-        audio {
-            width: 300px;
+    #logo {
+        max-height: 40px; 
+        margin-right: -120px;
+    }
+    nav {
+        .menuNav {  
+        font-size: xx-small;
+        margin: 0px;
+        display: flex;
         }
     }
+    
+
+    #FondoConcept {
+        background-image: url(../img/fondo_mob.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        width: 100%;
+        height: 800px;
+        padding: 20px;
+        
+    }
+}
+}
+@media screen and (max-width: 576px) {
+.container { 
+    footer {
+        background-color: rgb(37, 37, 37);
+        height:150px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color:white;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    footer ul  { 
+        margin-left:140px;
+        
+    }
+    main { 
+    video { 
+        width: 300px;
+     }
+     audio { 
+        width: 300px;
+     }
+    }
+}
 }

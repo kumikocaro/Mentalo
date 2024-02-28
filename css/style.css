@@ -148,26 +148,21 @@ body {
   color: white;
 }
 .container .boton_arriba img {
-  with: 12px;
+  width: 12px;
 }
+
 @media screen and (max-width: 1200px) {
-  .container .nav-links li {
-    margin: 10px 0;
-  }
   .container header {
     padding: 0px;
   }
   .container #logo {
     max-height: 40px;
+    margin-right: -120px;
   }
-  .container .menuNav {
+  .container nav .menuNav {
     font-size: xx-small;
     margin: 0px;
-  }
-  .container nav img {
-    vertical-align: middle;
-    margin: 0px;
-    padding: 0px;
+    display: flex;
   }
   .container #FondoConcept {
     background-image: url(../img/fondo_mob.jpg);
@@ -192,10 +187,10 @@ body {
   .container footer ul {
     margin-left: 140px;
   }
-  .container video {
+  .container main video {
     width: 300px;
   }
-  .container audio {
+  .container main audio {
     width: 300px;
   }
 }
