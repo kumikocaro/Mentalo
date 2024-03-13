@@ -1,12 +1,11 @@
 @media screen and (max-width: 1200px) {
     .container {
         header {
-            padding: 0px;
+            padding: 10px;
         }
 
         #logo {
             max-height: 40px;
-            margin-right: -120px;
         }
 
         nav {
@@ -15,7 +14,6 @@
                 margin: 0px;
                 display: flex;
             }
-            
         }
 
         #FondoConcept {
@@ -27,6 +25,7 @@
             height: 800px;
             padding: 20px;
         }
+
         main video,
         main audio {
             width: 450px;
@@ -36,18 +35,16 @@
 
 @media screen and (max-width: 576px) {
     .container {
+        header {
+            padding:10px;
+        }
         footer {
             background-color: $fondo_foot;
             height: 150px;
-            text-align: center;
             font-family: 'Roboto', sans-serif;
             color: $blanco;
             padding: 10px;
             font-weight: bold;
-        }
-
-        footer ul {
-            margin-left: 140px;
         }
 
         main video,

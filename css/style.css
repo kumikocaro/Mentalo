@@ -96,7 +96,7 @@ body {
   background-color: rgb(34, 34, 34);
   height: 150px;
   padding-top: 40px;
-  text-align: left;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   color: white;
   padding-left: 30px;
@@ -109,6 +109,7 @@ body {
   display: flex;
   margin-top: 10px;
   padding: 0;
+  justify-content: center;
 }
 .container footer ul li {
   margin-right: 10px;
@@ -162,11 +163,10 @@ body {
 
 @media screen and (max-width: 1200px) {
   .container header {
-    padding: 0px;
+    padding: 10px;
   }
   .container #logo {
     max-height: 40px;
-    margin-right: -120px;
   }
   .container nav .menuNav {
     font-size: xx-small;
@@ -188,17 +188,16 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
+  .container header {
+    padding: 10px;
+  }
   .container footer {
     background-color: rgb(34, 34, 34);
     height: 150px;
-    text-align: center;
     font-family: "Roboto", sans-serif;
     color: white;
     padding: 10px;
     font-weight: bold;
-  }
-  .container footer ul {
-    margin-left: 140px;
   }
   .container main video,
   .container main audio {
