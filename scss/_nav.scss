@@ -3,14 +3,17 @@
         background: black;
         padding: 40px;
         margin: 0;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        
         
         nav {
             align-items: center;
-            justify-content: space-between;
-            padding: 10px;
+
             background: $negro;
 
             ul {
+                justify-content: space-between;
                 display: flex;
                 align-items: center;
                 list-style: none;
@@ -36,7 +39,6 @@
 
                     img {
                         max-height: 100px;
-                        padding-right: 160px;
                     }
                 }
             }

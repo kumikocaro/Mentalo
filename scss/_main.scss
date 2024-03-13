@@ -9,11 +9,21 @@
         padding: 20px;
     }
 
+    h1 {
+        margin-bottom: 2rem;
+    }
+
     main {
         background-color: $fondo;
         color: $blanco;
         font-family: 'Roboto', sans-serif;
-        padding: 5rem 2rem 7rem;
+        padding: 20px;
+        
+     .row {
+        img {
+            width: 100%;
+        }
+     }
         
         p {
             color: $gris;
